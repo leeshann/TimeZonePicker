@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/time-zone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Choose Your TimeZone</title>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <dialog id="dialog" class="dynapuff">
+                <form id="selections" action="">
+                    <label for="timezones" id="choosetimezone">Choose a Timezone</label>
+                    <select name="timezones" id="timezones">
+                        <option id="mt" value="mt">America/Denver</option>
+                        <option id="et" value="et">America/New York</option>
+                        <option id="ct" value="ct">America/Chicago</option>
+                        <option id="pt" value="pt">America/Los Angeles</option>
+                        <option id="mst" value="mst">America/Phoenix</option>
+                        <option id="cst" value="cst">America/Santiago</option>
+                    </select>
+
+                    <button id="closeModal" value="Submit">Select</button>
+
+                </form>
+            </dialog>
+           
+        </div>
+    </main>
+    <script src="bundle.js"></script>
+</body>
+</html>
